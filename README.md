@@ -1,6 +1,6 @@
-# Store-Sales-Analysis-SQL-Case-Study-
+# Store Sales Analysis (SQL Case Study)
 
-## Project Overview
+## 📌Project Overview
 
 **Project Title**: Retail Sales Analysis  
 **Level**: Beginner  
@@ -8,7 +8,7 @@
 
 This project focuses on analyzing sales data from a fictional online store using SQL Server. The dataset includes customer information, product categories, order details, pricing, and order dates. The goal was to perform exploratory data analysis (EDA) using SQL queries to uncover key business insights, such as total revenue, customer behavior, and sales performance across cities and product categories. By using SQL aggregation functions, grouping, and filtering techniques, meaningful patterns were identified to support data-driven decision-making in marketing, inventory, and customer engagement strategies.
 
-## Project Objectives
+## 🎯Project Objectives
 1. Determine the total number of customers and orders in the database.
 2. Identify the unique product categories offered by the store.
 3. Discover the top-performing products and customers by revenue.
@@ -19,7 +19,10 @@ This project focuses on analyzing sales data from a fictional online store using
 
 ## Project Structure
 
-### Database Setup
+### 🔧Tools Used 
+**. SQL Server**
+
+### 🛠 Database Setup
 
 **Database Creation**: The project starts by selectin a database named `SQL_PROJECT1`.
 **Table Creation**: A tables are named `Customers` and `Orders` are created to store the sales data. The Customers table structure includes columns for customer ID, name, gender,age, and city. The Orders table structure includes columns for order ID, customer ID, product, category, quantity, price, and order_date.
@@ -69,7 +72,7 @@ INSERT INTO Orders (order_id, customer_id, product, category, quantity, price, o
 (110, 5, 'Bluetooth Speaker', 'Electronics', 1, 80000, '2023-11-14');
 ```
 
-## Data Analysis 
+## 🔍 Data Analysis 
 The following SQL queries were developed to answer specific business questions
 
 **1. How many customers are in the database?**
@@ -155,7 +158,7 @@ ON C.customer_id = O.customer_id
 GROUP BY City
 ORDER BY Revenue DESC
 ```
-## Key Insights
+## 📈 Key Insights
 
 **1. Customer Base**: There are 5 total customers in the database, indicating a small but manageable customer base for personalized marketing efforts.
 
@@ -178,7 +181,7 @@ ORDER BY Revenue DESC
 **10.Top City by Revenue**: Ibadan generated the highest city-level revenue (₦475,000), showing potential for targeted marketing campaigns in that region.
 
 
-## Recommendations
+## 💡 Recommendations
 
 **1. Target High-Spending Customers**: Focus loyalty programs and personalized marketing on high-value customers like Tunde Adeyemi to increase retention and repeat sales.
 
@@ -207,6 +210,9 @@ ORDER BY Revenue DESC
 2. **Set Up the Database**: Run the SQL scripts provided in the `database_setup.sql` file to create and populate the database.
 3. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
 4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
+
+## 📜 License
+This project is licensed under the MIT License – you are free to use, modify, and distribute this project, provided proper credit is given.
 
 ## Author - Sandra Nnamdi
 
