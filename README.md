@@ -20,7 +20,7 @@ This project focuses on analyzing sales data from a fictional online store using
 ## Project Structure
 
 ### 🔧Tools Used 
-**. SQL Server**
+**- SQL Server**
 
 ### 🛠 Database Setup
 
